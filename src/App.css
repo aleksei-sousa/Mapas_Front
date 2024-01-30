@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom right, #0DF2FD, #0BE337);
+    background-repeat: no-repeat;
+    padding: 10px;
+    min-height: 830px;
+}
+.menu{
+    background-color: #005274;
+    padding: 10px;
+    margin: 10px 0;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn_inicio{
+    background-color: aliceblue;
+    border: 0;
+    padding: 0px 13px;
+}
+main{
+    max-width: 320px;
+    /* position: relative; */
+    margin: auto;
+}
+.mapa_borda{
+    background-color: rgb(212, 212, 212);
+    border: 10px solid gray;
+    height: 600px;
+    padding: 0px 20px;
+    position: relative;
+}

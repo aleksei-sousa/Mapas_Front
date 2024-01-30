@@ -1,0 +1,27 @@
+.display_none{
+    display: none;
+}
+.container{
+    max-width: 320px;
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 5px solid #6c6c6c;
+    justify-content: space-around;
+}
+.quadrado{
+    width: 48px;
+    height: 48px;
+    background-color: rgb(106 106 106);
+    display: inline-flex;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.quadrado:hover{
+    background-color: #005274;;
+}

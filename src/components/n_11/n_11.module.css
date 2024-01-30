@@ -1,0 +1,359 @@
+.container{
+    max-width: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+
+}
+.mapa_borda{
+    background-color:rgb(212, 212, 212);
+    border: 10px solid gray;
+    height: 600px;
+    padding: 0px 20px;
+    position: relative;
+}
+.display_none{
+    display: none;
+}
+.mapa_content{
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    width: 85%;
+    padding: 10px;
+        height: 340px;
+}
+.row{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(243, 243, 243);
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    color: #747474;
+
+}
+p{
+    user-select: none;
+}
+.passagem{
+    width: 120px;
+    height: 17px;
+    background-color: rgb(243, 243, 243);
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    color: #747474;
+}
+.collumn{
+    width: 20px;
+    height: 120%;
+    background-color: rgb(243, 243, 243);
+    position: absolute;
+    writing-mode: vertical-lr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #747474;
+}
+#idrow0{
+    top:0px;
+    left: 0;
+    z-index: 2;
+}
+#idrow1{
+    top: 60%;
+    transform: translatey(-50%);
+    left: 0;
+    z-index: 3;
+}
+#idrow2{
+    bottom: 20px;
+    left: 0;
+    z-index: 2;
+}
+#idrow3{
+    width: 57%;
+height: 15px;
+position: absolute;
+bottom: -16px;
+right: 11px;
+font-size: 12px; 
+text-align: start;
+}
+#idpass0{
+    bottom: 88px;
+right: 19px;
+z-index: 4;
+width: 40%;
+
+}
+
+#collumn0{
+    top: 0;
+    left: 0px;
+    z-index: 3;
+}
+#collumn1{
+    height: 83%;
+    top: 20px;
+    left: 40%;
+    transform: translatex(-50%);
+    text-align: left;
+    padding-top: 2px;
+    z-index: 2;
+}
+#collumn2{
+    top: 0; 
+    right: 0;
+    z-index: 3;
+}
+.rowtraço{
+background-color: grey;
+z-index: -2;
+}
+.novorowtraço{
+background-color: rgb(1 67 255);
+z-index: -2;
+}
+
+#rid0{
+    width: 10px;
+    height: 165px;
+    position: absolute;
+    top: 20px;
+    left: 19px;
+}
+#rid1{
+    width: 10px;
+height: 80px;
+position: absolute;
+top: 217px;
+left: 20px;
+}
+#rid2{
+    width: 22%;
+height: 10px;
+position: absolute;
+top: 20px;
+left: 27px;
+}
+#rid3{
+    width: 43%;
+height: 10px;
+position: absolute;
+top: 20px;
+right: 25px;
+}
+#rid4{
+    width: 10px;
+    height: 165px;
+    position: absolute;
+    top: 20px;
+    right: 19px;
+}
+#rid5{
+width: 10px;
+height: 77px;
+position: absolute;
+top: 214px;
+right: 20px;
+}
+#rid6{
+    width: 10px;
+height: 89px;
+position: absolute;
+bottom: -1px;
+right: 20px;
+}
+#rid7{
+    width: 28%;
+height: 10px;
+position: absolute;
+bottom: 20px;
+left: 22px;
+
+}
+#rid8{
+    width: 44%;
+    height: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+#rid9{
+    width: 10px;
+height: 173px;
+position: absolute;
+top: 0px;
+left: -10px;
+}
+#rid10{
+    width: 10px;
+height: 173px;
+position: absolute;
+top: 0px;
+right: -9px;
+
+}
+#rid11{
+    width: 10px;
+height: 54px;
+position: absolute;
+top: 160px;
+right: -9px;
+}
+#rid12{
+    width: 10px;
+height: 81px;
+position: absolute;
+bottom: 7px;
+left: -10px;
+}
+#rid13{
+    width: 10px;
+height: 86px;
+position: absolute;
+bottom: 2px;
+right: -10px;
+}
+#rid14{
+    width: 30%;
+    height: 10px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+#rid15{
+    width: 25%;
+height: 10px;
+position: absolute;
+top: 20px;
+left: 20px;
+}
+#rid16{
+width: 49%;
+height: 10px;
+position: absolute;
+top: -10px;
+right: 10px;
+}
+#rid17{
+width: 41%;
+height: 10px;
+position: absolute;
+top: 20px;
+right: 29px;
+}
+
+#rid18{
+width: 82%;
+height: 10px;
+position: absolute;
+top: 21px;
+right: 26px;
+}
+#rid19{
+width: 82%;
+height: 10px;
+position: absolute;
+bottom: -11px;
+right: 18px;
+}
+#rid20{
+width: 10px;
+height: 40px;
+position: absolute;
+top: 16px;
+right: 36px;
+writing-mode: horizontal-tb;
+color: aliceblue;
+font-size: 8px;
+}
+#rid21{
+width: 10px;
+height: 40px;
+position: absolute;
+top: 16px;
+right: 67px;
+}
+#rid22{
+width: 10px;
+height: 23px;
+position: absolute;
+top: 16px;
+left: 0;
+}
+#rid23{
+width: 10px;
+height: 40px;
+position: absolute;
+top: 16px;
+left: 32px;
+}
+.circulo{
+width: 45px;
+height: 45px;
+border-radius: 50%;
+position: fixed;
+top: 183px;
+right: 29px;
+background-color: grey;
+z-index: 10;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 4px solid rgb(255, 0, 0);
+}
+.circulonovo{
+width: 45px;
+height: 45px;
+border-radius: 50%;
+position: fixed;
+top: 183px;
+right: 29px;
+background-color: grey;
+z-index: 10;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 4px solid rgb(19, 255, 11);
+}
+.btns{
+margin-top: 15px;
+width: 100%;
+height: 35px;
+}
+.salvar{
+width: 100%;
+height: 100%;
+font-size: 20px;
+font-weight: 500;
+}
+.datas{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 15px;
+}
+.texto{
+margin-top: 10px;
+}
+textarea{
+width: 317px;
+height: 70px;
+padding: 5px;
+}
+input[type=date]{
+width: 95px
+}
