@@ -1,5 +1,6 @@
 import styles from './n_19.module.css'
 import img1 from './foto_n19.jpg'
+
 export default function N_19 ({visualizacao}){
     return(   
 <div className={`${styles.container} ${visualizacao == 19 ? '' : `${styles.display_none}`}`}>

@@ -1,6 +1,10 @@
 import styles from './n_3.module.css'
-
+//import { useContext } from "react"
+//import { Context } from "../../hooks/useContext/context"
 export default function N_3 ({visualizacao}) {
+
+    //const { condicao } = useContext(Context)
+    //console.log(cadeado)
     return(
         <div className={`${styles.container} ${visualizacao == 3 ? '': `${styles.display_none}`}`}>
                 <div className={styles.mapa_content}>
@@ -93,6 +97,8 @@ export default function N_3 ({visualizacao}) {
                         <div className={styles.rowtraço} id={styles.rid100}></div>
                         <div className={styles.rowtraço} id={styles.rid101}></div>
                 </div>
+
         </div>
+
     )
 }
